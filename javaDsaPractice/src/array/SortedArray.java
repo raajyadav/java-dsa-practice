@@ -3,7 +3,7 @@ package array;
 public class SortedArray {
 
 	/*
-	 * 31) WAJP to check whether a given array is in sorted order or not. 
+	 *  WAJP to check whether a given array is in sorted order or not. 
 	 * i/p: [2, 7, 7, 8, 9] 
 	 * o/p: Array is sorted
 	 */
