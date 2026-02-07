@@ -2,6 +2,48 @@ package whileLoop;
 
 import java.util.Scanner;
 
+  public class Program{
+	  
+//	public static void main(String[] args) {
+//		  int i = 1;
+//				  
+//		  while(i <= 10) {
+//		    System.out.print(i+" ");
+//		    i++;
+//		 }
+//   
+//	}
+	  
+//	  public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter any number");
+//		int number = sc.nextInt();
+//		int i  = 1;
+//		
+//		while( i <= number) {
+//			System.out.print(i+" ");
+//			i++;
+//		}
+//	}
+  
+//	  Sum of n natural number
+	  public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any natural number");
+		int n = sc.nextInt();
+		int sum = 0;
+		int i = 1;
+		
+		while( i <= n) {
+		      sum+=i;
+		      i++;
+		}
+		System.out.println("Total sum of natural number : "+sum);
+		
+	}
+   
+  
+
 //1) Write a java program to take a user input and print each digits of the number one by one from right to left.
 //public class Program {
 //
@@ -665,26 +707,26 @@ import java.util.Scanner;
 
 //Q) Write a java program to print HCF 
 
-public class Program{
-	
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 1st number");	
-		int n1 = sc.nextInt();
-		System.out.println("Enter 2nd number");
-		int n2 = sc.nextInt();
-		System.out.println("Enter 3rd number");
-		int n3 = sc.nextInt();
-		int hcf = getHCF(n1,n2,n3);
-		System.out.println(hcf);
-	}
-	
-	public static int getHCF(int a, int b, int c) {
-		int small = (a<b && a<c)?a:(b<c?b:c);
-		for(int i = small; ;i--) {
-			if(a%i == 0 && b % i == 0 && c%i == 0)
-				return i;
-		}
-	}
+//public class Program{
+//	
+//	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter 1st number");	
+//		int n1 = sc.nextInt();
+//		System.out.println("Enter 2nd number");
+//		int n2 = sc.nextInt();
+//		System.out.println("Enter 3rd number");
+//		int n3 = sc.nextInt();
+//		int hcf = getHCF(n1,n2,n3);
+//		System.out.println(hcf);
+//	}
+//	
+//	public static int getHCF(int a, int b, int c) {
+//		int small = (a<b && a<c)?a:(b<c?b:c);
+//		for(int i = small; ;i--) {
+//			if(a%i == 0 && b % i == 0 && c%i == 0)
+//				return i;
+//		}
+//	}
 	
 }
